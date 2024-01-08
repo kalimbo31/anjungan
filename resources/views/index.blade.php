@@ -6,7 +6,7 @@
         <img src="/images/Untitled-1.jpg"
             class="bg-blend-multiply bg-black absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
     </div> --}}
-    <div id="default-carousel" class="w-full relative bg-gray-200" data-carousel="slide">
+    <div id="default-carousel" class="w-full relative bg-gray-200" data-carousel="slide"> 
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden md:h-screen">
              <!-- Item 1 -->
@@ -21,14 +21,14 @@
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img src="{{ asset('images/slider/3.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
-            {{-- <!-- Item 4 -->
+            <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="{{ asset('images/slider/1.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-            </div> --}}
+                <img src="{{ asset('images/slider/2.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
         </div>
         <!-- Slider indicators -->
         <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -78,8 +78,8 @@
 
 <section class="bg-gray-50 w-full py-8 text-center lg:py-20 overflow-hidden">
     <div class="max-w-screen-lg mx-auto text-center mb-5">
-        <h1 class="text-3xl font-semibold text-gray-700 mb-2">Pegawai</h1>
-        <h2 class="text-lg text-gray-500">Informasi Kepegawaian
+        <h1 class="text-3xl font-semibold text-gray-700 mb-2">PETA</h1>
+        <h2 class="text-lg text-gray-500">Informasi Pemetaan
         </h2>
     </div>
     <img src="{{ asset('images/peta2.jpg') }}" alt="">
