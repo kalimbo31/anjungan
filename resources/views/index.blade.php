@@ -66,9 +66,9 @@
                 Jl.
                 Rusli Datau No.10, Dulomo Sel., Kec. Kota Utara, Kota Gorontalo, Gorontalo 96128</p>
 
-            <a href="#sambutan"
+            {{-- <a href="#sambutan"
                 class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br font-medium rounded-lg md:text-lg px-5 py-3 text-center md:w-40 w-20 text-sm">Lihat
-                Sambutan</a>
+                Sambutan</a> --}}
         </div>
     </div>
 </section>
