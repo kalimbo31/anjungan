@@ -6,9 +6,9 @@
         <img src="/images/Untitled-1.jpg"
             class="bg-blend-multiply bg-black absolute block w-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
     </div> --}}
-    <div id="default-carousel" class="w-full relative bg-gray-200" data-carousel="slide"> 
+    <div id="default-carousel" class="w-full relative" data-carousel="slide"> 
         <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden md:h-screen">
+        <div class="relative h-96 overflow-hidden md:h-screen">
              <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img src="{{ asset('images/slider/1.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -56,7 +56,7 @@
             </span>
         </button>
     </div>
-    <div class="max-w-screen-lg px-4 mx-auto absolute inset-0 flex flex-col justify-center items-center">
+    {{-- <div class="max-w-screen-lg px-4 mx-auto absolute inset-0 flex flex-col justify-center items-center">
         <div class="text-center col-span-12">
             <h1
                 class=" mb-4 text-2xl sm:text-3xl font-extrabold lg:leading-none leading-normal md:text-4xl lg:text-5xl text-green">
@@ -66,11 +66,11 @@
                 Jl.
                 Rusli Datau No.10, Dulomo Sel., Kec. Kota Utara, Kota Gorontalo, Gorontalo 96128</p>
 
-            {{-- <a href="#sambutan"
+            <a href="#sambutan"
                 class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br font-medium rounded-lg md:text-lg px-5 py-3 text-center md:w-40 w-20 text-sm">Lihat
-                Sambutan</a> --}}
+                Sambutan</a>
         </div>
-    </div>
+    </div> --}}
 </section>
 
 
