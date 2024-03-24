@@ -36,6 +36,6 @@ Route::get('/isdhtl/{title}', [ContentShowController::class, 'showISDHTL'])->nam
 Route::get('/publikasi', [ContentShowController::class, 'showPublikasi'])->name('publikasi.show');
 Route::get('/layanan/{title}', [ContentShowController::class, 'showLayanan'])->name('layanan.show');
 
-Route::get('storage-files/{folder}/{filename}', [FileController::class, 'showPdf'])->name('pdf.show');
+Route::get('storage/{folder}/{filename}', [FileController::class, 'showPdf'])->name('pdf.show');
 
 Route::redirect('/laravel/login', '/login')->name('login');
